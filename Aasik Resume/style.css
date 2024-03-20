@@ -1,0 +1,527 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #053B50;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    position: relative;
+    background: #176B87;
+    width: 100%;
+    max-width: 900px;
+    min-height: 100px;
+    box-shadow: 0 0 20px rgba(13, 13, 13, 0.8);
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    /* padding-bottom: 20px; */
+}
+
+h3 {
+    color: #053B50;
+    text-transform: uppercase;
+    background: rgba(163, 158, 158, 0.5);
+    width: 70%;
+    margin: auto;
+    font-weight:600;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+
+.bottom-border-line{
+    background: #EEEDED;
+    height: 2px;
+    width: 80%;
+    content: '';
+    border-radius: 40px;
+    margin: 30px auto;
+    opacity: 80%;
+}
+
+/* ------------------------------------------------ Left Side Content ------------------------------------------------ */
+.left-side {
+    flex-basis: 30%;
+    position: relative;
+    padding: 0 10px;
+    /* background: #000; */
+}
+
+/* ------------------------------------------------ Image ------------------------------------------------ */
+
+
+.image {
+    /* background: #000; */
+    width: 100%;
+    max-width: 150px;
+    height: 150px;
+    /* object-fit: contain; */
+    margin: 40px auto 30px;
+    /* border-radius: 50%; */
+    /* border: 3px solid #EEEEEE; */
+    
+}
+
+.image:hover {
+    cursor: pointer;
+    box-shadow:  8px 10px 15px rgba(163, 158, 158, 0.5);
+    transition: .5s;
+}
+
+.image img {
+    width: 100%;
+    max-width: 300px;
+    height: 150px;
+    object-fit: contain;
+    /* border-radius: 50%; */
+}
+
+
+/* ------------------------------------------------ Contact ------------------------------------------------ */
+
+
+.contact h3 {
+    text-align: center;
+}
+
+.contact-lists {
+    background: rgba(165, 163, 163, 0.5);
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.contact-lists a {
+    text-decoration: none;
+    color: #EEEEEE;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: .3px;
+    transition: transform .5s;
+}
+
+.contact-lists a:hover {
+    /* font-size: 10px; */
+    transform: scale(1.2);
+}
+
+.contact-lists div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.contact-lists div .fa-solid,
+.contact-lists div .fa-brands {
+   font-size: 12px;
+   background: #EEEEEE;
+   padding: 3.5px;
+   border-radius: 50%;
+   margin-right: 15px;
+   color: #053B50;
+}
+
+
+/* ------------------------------------------------ Tech Skills ------------------------------------------------ */
+
+.tech-skills {
+    position: relative;
+    margin-top: 30px;
+}
+
+.tech-skills h3{
+    text-align: center;
+}
+
+
+
+.section p {
+    text-align: center;
+    font-size: 14px;
+    color: #FAF0D7;
+    font-style: italic;
+}
+
+
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+
+.col-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+
+
+.col-3 .fa-brands {
+    /* background: rgba(165, 163, 163, 0.5); */
+    font-size: 24px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.fa-html5 {
+    color: orangered;
+}
+
+.fa-html5:hover {
+    background: rgb(255, 145, 106);
+    cursor: pointer;
+    transition: .5s;
+}
+
+
+.fa-css3 {
+    color: aqua;
+}
+
+
+.fa-css3:hover {
+    background: #053B50;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.fa-square-js {
+    color: #FFC436;
+}
+
+.fa-square-js:hover{
+    background: rgb(249, 249, 0);
+    transition: .5s;
+    cursor: pointer;
+}
+
+.col-3 span {
+    color: #EEEEEE;
+    font-size: 12px;
+    background: rgba(163, 158, 158, 0.5);
+    padding: 0 5px;
+    border-radius: 30px;
+}
+
+
+/*------------------------------------------- SQL Icon, Photoshop Icon-------------------------------------------*/
+
+.col-3 img {
+    width: 30px;
+    background: rgb(214, 212, 212);
+    padding: 5px;
+    border-radius: 10px;
+    margin: 10px 0;
+}
+
+
+.col-3 img:hover {
+    background: #053B50;
+    cursor: pointer;
+    transition: .5s;
+}
+
+
+
+/* ------------------------------------------------ Right Content ------------------------------------------------ */
+
+.right-side {
+    flex-basis: 70%;
+    padding: 20px 10px;
+    /* background: #64CCC5; */
+    background: #000;
+}
+
+.right-side h3 {
+    background: none;
+    text-align: center;
+    color: #1c85a8;
+    
+}
+
+.right-side h3 span {
+    color: #FAF0D7;
+
+}
+
+/* ------------------------------------------------  About Section ------------------------------------------------ */
+.about h3{
+    text-align: left;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 5px;
+    color: #1c85a8;
+
+}
+
+.about p {
+    text-align: justify;
+    font-size: 14px;
+    font-weight: 300;
+    color: #fffefe;
+    background: rgba(190, 187, 187, 0.5);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.about p span {
+    font-weight: 400;
+    color: #053B50;
+}
+
+
+.about p span:hover {
+    background: #176B87;
+    cursor: pointer;
+    border-radius: 30px;
+    padding: 0 10px;
+    transition: .5s;
+    color: #EEEDED;
+}
+
+
+/* ------------------------------------------------ Expericence ------------------------------------------------ */
+
+
+.experience h3 {
+    text-align: left;
+    padding: 0;
+    margin: 0;
+    margin: 28px 0 10px;
+    color: #1c85a8;
+}
+
+.exp-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    font-size: 12px;
+}
+
+.position-col{
+    flex-basis: 40%;
+}
+
+.task-list-col{
+    flex-basis: 50%;
+}
+
+.position-col p{
+    color: #1c85a8;
+
+}
+
+.position-col p span {
+    color: aliceblue;
+
+}
+
+.period{
+    font-style: italic;
+    font-size: 10px;
+}
+
+
+.task-list-col span {
+    color: #1c85a8;
+
+}
+
+
+.task-list-col ul {
+    
+   padding: 10px 20px;
+   border-radius: 10px;
+   background: rgba(190, 187, 187, 0.5);
+
+    
+}
+
+.task-list-col ul li {
+    list-style: none;
+    color: #ffffff;
+    display: flex;
+}
+
+.fa-circle-check {
+    padding-top: 4px;
+    margin-right: 10px;
+}
+
+
+
+/* ------------------------------------------------ Skills Section ------------------------------------------------ */
+
+.skills {
+    margin-top: 20px;
+}
+
+.skills h3 {
+    text-align: left;
+    padding: 0;
+    margin: 0;
+    margin: 28px 0 10px;
+    color: #1c85a8;
+}
+
+
+.skill-name {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    color: #fff;
+    font-size: 12px;
+    padding: 0 16px;
+    margin: 10px 0;
+}
+
+.skill-name span {
+    text-transform: capitalize;
+    flex-basis: 40%;
+}
+
+
+.bar{
+    flex-basis: 55%;
+}
+
+.progress-bar-100 {
+    background: #fff;
+    height: 5px;
+    width: 300px;
+    border-radius: 30px;
+}
+
+.progress-bar-user {
+    background: #1c85a8;
+    height: 5px;
+    border-radius: 30px 0 0 30px;
+}
+
+.size-280 {
+    width: 280px;
+}
+
+.size-275 {
+    width: 275px;
+}
+
+.size-270 {
+    width: 270px;
+}
+
+
+
+/* ------------------------------------------------ Education Section ------------------------------------------------ */
+
+.education{
+    margin: 40px 0;
+}
+
+
+.education h3{
+    text-align: left;
+    padding: 0;
+    margin: 0;
+    margin: 28px 0 10px;
+    color: #1c85a8;
+}
+
+.education ul {
+    list-style: none;
+    color: #ffffff;    
+    font-size: 12px;
+    font-weight: 400;
+    padding: 0 30px;
+}
+
+.education ul li{
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+}
+
+
+.fa-book-open{
+    margin-right: 15px;
+}
+
+
+
+
+/* ------------------------------------------------ Responsive ------------------------------------------------ */
+@media (max-width:988px){
+   
+    .skill-name{
+        flex-direction: column;
+    }
+
+    .position-col{
+        margin-bottom: 20px;
+    }
+    
+}
+
+
+@media (max-width:870px){
+   
+    .right-side{
+        padding: 20px 20px;
+    }
+    
+}
+
+
+@media (max-width:860px){
+   
+    .exp-row{
+        flex-direction: column;
+    }
+}
+
+
+
+
+@media (max-width:751px){
+   
+    .container{
+        flex-direction: column;
+    }
+
+    .image{
+        width: 20%;
+    }
+
+    .exp-row{
+        flex-direction: column;
+    }
+
+    .skills h3{
+        /* background: yellow; */
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .education h3{
+        margin: 0 auto;
+        text-align: center;
+    }
+}
+
+
