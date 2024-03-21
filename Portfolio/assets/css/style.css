@@ -503,7 +503,7 @@ nav ul li > .download-resume-mobile-view {
   /* margin-right: 40px; */
   border-radius: 5px;
   border: 1px solid var(--dark-orange);
-  transition: 0.5s;
+  transition: 0.10s;
 }
 
 .fa-display,
@@ -606,26 +606,6 @@ nav ul li > .download-resume-mobile-view {
 }
 
 
-
-
-
-.col-2 .fa-display,
-.col-2 .fa-code,
-.col-2 p,
-.col-2 a {
-  margin-bottom: 16px;
-}
-
-.col-2 span {
-  color: #fff;
-  font-size: 16px;
-}
-
-.col-2 p {
-  color: var(--gray);
-  font-weight: 300;
-}
-
 .col-2 a {
   color: var(--light-orange);
 }
@@ -633,7 +613,7 @@ nav ul li > .download-resume-mobile-view {
 .col-2:hover {
   /* box-shadow: 0 0 20px var(--light-orange); */
   cursor: pointer;
-  transform: scale(1.05);
+  transform: scale(1.10);
 }
 
 /* Responsive */
