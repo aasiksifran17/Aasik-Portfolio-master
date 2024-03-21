@@ -584,9 +584,22 @@ nav ul li > .download-resume-mobile-view {
   transform: translateX(-70%);
 }
 
+.size{
+height: 40px;
+padding-left: 30px;
+margin-top: 15px;
+
+
+}
+
+.sizee{
+  height: 43px;
+ 
+}
+
 .row {
   display: flex;
-  gap: 30px;
+  gap: px;
   margin: 40px auto;
   justify-content: center;
   padding: 20px 10px;
