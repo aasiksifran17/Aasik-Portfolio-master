@@ -469,7 +469,7 @@ nav ul li > .download-resume-mobile-view {
 }
 /*------------------------------ End of About Section ------------------------------*/
 
-/*------------------------------ Services Section ------------------------------*/
+/*------------------------------ Services Section 01 ------------------------------*/
 .services {
   background: var(--secondary-dark-color);
   padding: 100px 70px 60px;
@@ -565,7 +565,93 @@ nav ul li > .download-resume-mobile-view {
     padding: 100px 40px 60px;
   }
 }
-/*------------------------------ End of Services Section ------------------------------*/
+/*------------------------------ End of Services 01 Section ------------------------------*/
+
+
+/*------------------------------ Skills Section 01 ------------------------------*/
+.services {
+  background: var(--secondary-dark-color);
+  padding: 100px 70px 60px;
+}
+
+.services .discover,
+.services h3 {
+  text-align: center;
+}
+
+.services h3::after {
+  left: 50%;
+  transform: translateX(-70%);
+}
+
+.row {
+  display: flex;
+  gap: 30px;
+  margin: 40px auto;
+  justify-content: center;
+  padding: 20px 10px;
+  /* flex-wrap: wrap;
+  min-width: 500px; */
+}
+
+.col-2 {
+  flex-basis: 50%;
+  /* max-width: 350px; */
+  background: var(--primary-dark-color);
+  padding: 26px;
+  /* margin-right: 40px; */
+  border-radius: 5px;
+  border: 1px solid var(--dark-orange);
+  transition: 0.5s;
+}
+
+
+
+
+
+.col-2 .fa-display,
+.col-2 .fa-code,
+.col-2 p,
+.col-2 a {
+  margin-bottom: 16px;
+}
+
+.col-2 span {
+  color: #fff;
+  font-size: 16px;
+}
+
+.col-2 p {
+  color: var(--gray);
+  font-weight: 300;
+}
+
+.col-2 a {
+  color: var(--light-orange);
+}
+
+.col-2:hover {
+  /* box-shadow: 0 0 20px var(--light-orange); */
+  cursor: pointer;
+  transform: scale(1.05);
+}
+
+/* Responsive */
+/* Less than 718px Screen Size */
+@media screen and (max-width: 718px) {
+  .row {
+    flex-direction: column;
+  }
+}
+
+/* Responsive */
+/* Less than 718px Screen size */
+@media screen and (max-width: 718px) {
+  .services {
+    padding: 100px 40px 60px;
+  }
+}
+/*------------------------------ End of Skills 01 Section ------------------------------*/
 
 /*------------------------------ Contact Section ------------------------------*/
 .contact {
