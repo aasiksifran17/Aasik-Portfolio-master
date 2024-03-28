@@ -35,7 +35,7 @@ scroll_reveal.reveal('.contact-me',{origin:'bottom'})
 let menu_items = document.getElementById('menu-items')
 
 function showMenu() {
-    menu_items.style.right = '-110px'
+    menu_items.style.right`` = '-110px'
 }
 
 function hideMenu() {
